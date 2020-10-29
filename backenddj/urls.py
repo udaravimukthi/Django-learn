@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('', include('webtemp.urls')),   
+    #path('', include('webtemp.urls')),  // for webtemp projects
+    path('', include('calc.urls')),    
     path('admin/', admin.site.urls),
 ]
